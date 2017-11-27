@@ -1,0 +1,36 @@
+{
+  "name": "gsfiles/yii2-mytest",
+  "description": "Описание",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "test",
+    "extension"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "r-file",
+      "email": "r-file@mail.ru"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../gsfiles/yii2-mytest"
+    }
+  ],
+  "extra": {
+    "bootstrap": "gsfiles\\mytest\\Bootstrap"
+  },
+  "autoload": {
+    "psr-4": {
+      "gsfiles\\mytest\\": "src"
+    }
+  }
+}
+
